@@ -8,6 +8,12 @@ body {
   font-family: 'Bree Serif', serif;
 }
 
+p {
+  position: static;
+  width: fit-content;
+  margin: 1vh auto 0;
+}
+
 .titlebox {
   width: 60vw;
   min-width: 300px;
