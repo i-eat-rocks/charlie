@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bree Serif', serif;
+}
+
+.titlebox {
+  width: 60vw;
+  min-width: 300px;
+  text-align: center;
+}
+
+.titlebox,
+#gameField {
+  margin: 1em auto;
+}
+
+#gameField {
+  height: 70vh;
+  min-width: 400px;
+  width: 90vw;
+  border-radius: 5px;
+  border: dashed #4e5a93;
+  background-color: antiquewhite;
+  box-shadow: 0 0 3em 0 #616161 inset;
+}
+
+#gameImg {
+  height: 160px;
+  max-height: 320px;
+}
+
+.buttonHolder {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.sizeBtn {
+  margin: 0px 5px;
+  border: solid 3px #4e5a93;
+  border-radius: 5px;
+  color: #4e5a93;
+}
+
+.buttonHolder :hover {
+  color: #FFF;
+  background-color: #4e5a93;
+  /* background-color:#921109; */
+}
+
+div.bumper {
+  min-height: 3em;
+}

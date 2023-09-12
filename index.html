@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sliding Cat Creature</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+  <main>
+    <div class="titlebox">
+      <h1>Sliding cat creature!</h1>
+      <p id="feedback">Drag 'em around!</p>
+    </div>
+  </main>
+
+  <div id="gameField">
+    <!-- I asked my friends what image to put on this page and they sent this cat creature -->
+    <img id="gameImg" src="./assets/rancid_creature.jpg" alt="slider" class="img-fluid">
+  </div>
+  <div class="buttonHolder">
+    <button type="button" class="sizeBtn" id="sizeUp"> Make 'em Bigger!</button>
+    <button type="button" class="sizeBtn" id="sizeDown"> Make 'em Smaller!</button>
+  </div>
+  <div class="bumper"></div>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+  <script src="./scripts/script.js"></script>
+
+</body>
+
+</html>
