@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 
   $("#gameImg").mousedown(function () {
-    $("#gameImg").attr("src", "../assets/dancing_cat.gif");
+    $("#gameImg").attr("src", "/assets/dancing_cat.gif");
     console.log("position: ", $("#gameImg").position());
     // checkImg();
     $("#feedback").attr("display", "none");
